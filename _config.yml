@@ -105,3 +105,9 @@ deploy:
 search:
   path: search.xml
   field: post
+
+# CMS - netlify
+## https://github.com/jiangtj/hexo-netlify-cms
+netlify_cms:
+  config_file: netlify.yaml
+  
