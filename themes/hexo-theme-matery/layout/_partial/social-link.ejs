@@ -16,6 +16,12 @@
     </a>
 <% } %>
 
+<% if (theme.socialLink.instagram) { %>
+    <a href="<%= theme.socialLink.instagram %>" class="tooltipped" target="_blank" data-tooltip="关注我的Instagram: <%= theme.socialLink.instagram %>" data-position="top" data-delay="50">
+        <i class="fab fa-instagram"></i>
+    </a>
+<% } %>
+
 <% if (theme.socialLink.twitter) { %>
     <a href="<%= theme.socialLink.twitter %>" class="tooltipped" target="_blank" data-tooltip="关注我的Twitter: <%= theme.socialLink.twitter %>" data-position="top" data-delay="50">
         <i class="fab fa-twitter"></i>
